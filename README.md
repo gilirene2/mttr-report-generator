@@ -18,7 +18,7 @@ This tool automates that process by:
 
 ## ⚙️ How It Works
 
-✅ Key functions:
+ Key functions:
 - `extract_created_from_file()`: Extracts the "Created" timestamp, found near the visible "Created" label in the decoded HTML
 - `extract_occurred_from_file()`: Extracts the ISO-style UTC "Occurred" timestamp (e.g., `2025-07-07T20:10:01Z`)
 - Calculates MTTR as the time delta between those two values
@@ -27,7 +27,7 @@ This tool automates that process by:
 
 ---
 
-## 📁 Input Format
+## Input Format
 
 The script is designed to work with:
 - `.html` or `.mhtml` files
@@ -35,7 +35,7 @@ The script is designed to work with:
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Install dependencies using pip:
 
@@ -45,7 +45,7 @@ pip install beautifulsoup4 pandas python-dateutil
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 Open your terminal or command prompt and run:
 
@@ -59,7 +59,7 @@ This will launch an interactive prompt to:
 
 ---
 
-## 📊 Example Output
+##  Example Output
 
 The resulting Excel sheet includes:
 
@@ -69,7 +69,7 @@ The resulting Excel sheet includes:
 
 ---
 
-## 🔒 Security
+## Security
 
 - This script runs locally and does **not** upload data or connect to the internet.
 - No sensitive Arctic Wolf information is included in this tool or repository.
@@ -77,7 +77,7 @@ The resulting Excel sheet includes:
 
 ---
 
-## 🧠 Author Notes
+## Author Notes
 
 This project was built out of necessity to reduce time spent manually reviewing incident tickets and calculating MTTR across large batches. It’s a small but powerful tool that brings speed and structure to SOC workflows.
 
@@ -85,6 +85,6 @@ If you’re working in incident response or audit reporting, this might save you
 
 ---
 
-## 📜 License
+## License
 
 MIT License — feel free to modify and reuse with proper credit.
